@@ -1,0 +1,8 @@
+const ProductActionTypes = {
+  FETCH_PRODUCTS: "FETCH_PRODUCTS",
+  CREATE_PRODUCT: "CREATE_PRODUCT",
+  UPDATE_PRODUCT: "UPDATE_PRODUCT",
+  DELETE_PRODUCT: "DELETE_PRODUCT",
+};
+
+export default ProductActionTypes;

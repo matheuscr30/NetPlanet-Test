@@ -1,0 +1,51 @@
+$color-danger: #f44336;
+$color-success: #4caf50;
+$color-success-dark: #388e3c;
+$color-muted: #9e9e9e;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.successColor {
+  color: $color-success !important;
+}
+
+.dangerColor {
+  color: $color-danger !important;
+}
+
+.mutedColor {
+  color: $color-muted !important;
+}
+
+.successButton {
+  background-color: $color-success !important;
+  color: white !important;
+
+  &:hover {
+    background-color: $color-success-dark !important;
+
+    @media (hover: none) {
+      background-color: $color-success-dark !important;
+    }
+  }
+}
+
+.hoverSuccessColor:hover {
+  color: $color-success !important;
+}
+
+.hoverDangerColor:hover {
+  color: $color-danger !important;
+}
